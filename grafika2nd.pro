@@ -9,7 +9,7 @@ CONFIG   -= app_bundle
 
 TEMPLATE = app
 
-LIBS += -lopengl32 -lglu32# -glut32
+LIBS += -lopengl32 -lglu32 -lglut32
 
 INCLUDEPATH = C:/glut-3.5/include
 LIBS += C:/glut-3.7.6-bin/glut32.lib
